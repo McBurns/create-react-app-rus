@@ -1,9 +1,9 @@
-# Create React App [![Build Status](https://travis-ci.org/facebookincubator/create-react-app.svg?branch=master)](https://travis-ci.org/facebookincubator/create-react-app)
+# Create React App на русском языке [![Build Status](https://travis-ci.org/facebookincubator/create-react-app.svg?branch=master)](https://travis-ci.org/facebookincubator/create-react-app)
 
-Create React apps with no build configuration.
+Создание приложения React без конфигурации сборки.
 
-* [Getting Started](#getting-started) – How to create a new app.
-* [User Guide](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md) – How to develop apps bootstrapped with Create React App.
+* [Getting Started](#getting-started) – Как создать новое приложение.
+* [User Guide](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md) – Руководство пользователя по разработке приложения Create React App с использованием bootstrap.
 
 ## tl;dr
 
@@ -16,38 +16,38 @@ npm start
 
 ```
 
-Then open [http://localhost:3000/](http://localhost:3000/) to see your app.<br>
-When you’re ready to deploy to production, create a minified bundle with `npm run build`.
+Затем перейдите по адресу [http://localhost:3000/](http://localhost:3000/), чтобы увидеть своё приложение.<br>
+Когда будете готовы к загрузке продакшена, создайте минифицированный модуль командой `npm run build`.
 
 <img src='https://camo.githubusercontent.com/506a5a0a33aebed2bf0d24d3999af7f582b31808/687474703a2f2f692e696d6775722e636f6d2f616d794e66434e2e706e67' width='600' alt='npm start'>
 
 ## Getting Started
 
-### Installation
+### Установка
 
-Install it once globally:
+Сначала устанавливаем глобальный пакет:
 
 ```sh
 npm install -g create-react-app
 ```
 
-**You’ll need to have Node >= 4 on your machine**.
+**Необходим установленный на компьютере Node версии 4.х.х или выше**.
 
-**We strongly recommend to use Node >= 6 and npm >= 3 for faster installation speed and better disk usage.** You can use [nvm](https://github.com/creationix/nvm#usage) to easily switch Node versions between different projects.
+**Мы настоятельно рекомендуем использовать Node >= 6 and npm >= 3 для быстрой установки и оптимального использования дискового пространства.** Вы можете использовать [nvm](https://github.com/creationix/nvm#usage) для лёгкого переключения версий Node для различных проектов.
 
-**This tool doesn’t assume a Node backend**. The Node installation is only required for the build tools that rely on it locally, such as Webpack and Babel.
+**Для работы приложения нет небходимости в установленном на сервере Node**. Установка Node требуется только для использования в проекте локально таких инструментов как Webpack или Babel.
 
-### Creating an App
+### Создание приложения
 
-To create a new app, run:
+Для создания нового приложения выполните команды:
 
 ```sh
 create-react-app my-app
 cd my-app
 ```
 
-It will create a directory called `my-app` inside the current folder.<br>
-Inside that directory, it will generate the initial project structure and install the transitive dependencies:
+Будет создан каталог с именем `my-app` внутри текущей папки.<br>
+Внутри каталога будет сгенерирована начальная структура проекта и установлены пакеты зависимостей:
 
 ```
 my-app/
@@ -67,33 +67,33 @@ my-app/
     logo.svg
 ```
 
-No configuration or complicated folder structures, just the files you need to build your app.<br>
-Once the installation is done, you can run some commands inside the project folder:
+Без конфигураций или сложной структуры папок, только необходимые для создания вашего приложения файлы.<br>
+После завершения установки вы можете использовать внутри папки проекта следующие команды:
 
 ### `npm start`
 
-Runs the app in development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Запускает проект в режиме разработки.<br>
+Перейдите по адресу [http://localhost:3000](http://localhost:3000), чтобы увидеть его в браузере.
 
-The page will reload if you make edits.<br>
-You will see the build errors and lint warnings in the console.
+Страница будет автоматически перезагружаться после каждого изменения в файлах проекта.<br>
+В случае возникновения ошибок или предупреждений при сборке проекта, вы увидите сообщения о них в консоли.
 
 <img src='https://camo.githubusercontent.com/41678b3254cf583d3186c365528553c7ada53c6e/687474703a2f2f692e696d6775722e636f6d2f466e4c566677362e706e67' width='600' alt='Build errors'>
 
 ### `npm test`
 
-Runs the test watcher in an interactive mode.  
-By default, runs tests related to files changes since the last commit.
+Запускает тест с отслеживанием поведения в интерактивном режиме.  
+По умолчанию тесты запускаются для проверки файлов, изменённых с момента последнего коммита.
 
-[Read more about testing.](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#running-tests)
+[Прочитайте больше про тестирование.](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#running-tests)
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Создаёт приложение для продакшена в папке `build`.<br>
+Эта команда корректно собирает зависимости продакшена и оптимизирует сборку для улучшения производительности.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+При сборке происходит минификация и переименовани файлов, включая хэш.<br>
+Ваше приложение готово к работе!
 
 ## User Guide
 
